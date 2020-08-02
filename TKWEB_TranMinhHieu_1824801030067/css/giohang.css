@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 50px;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    
+  }
+
+  .cart-item1{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+  }
+  .cart-item1 li{
+    display:inline-block;
+	position: relative;
+  }

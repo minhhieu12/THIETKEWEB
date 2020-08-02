@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+	<title>Giỏ hàng</title>
+    <script src="https://kit.fontawesome.com/4702f02b2a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="img/shortcut.png"/>
+    <link rel="stylesheet" href="css/mainstyle.css"/>
+    <link rel="stylesheet" href="css/pagesanpham.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+          margin-left: 5em
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+    </head>
+
+    <body style="background-color: #F1F1F1;">
+        
+        <header>
+            <nav class="header">
+                <ul>
+                    <li>
+                        &ensp;&ensp;&ensp;&ensp;
+                        <a href="index.html">
+                            <img src="img/logo2.png" alt="logo" width="40%" align="middle">
+                        </a>
+                    </li>
+                    <li>
+                        <p>
+                            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                        </p>
+                    </li>
+                    <li>
+                        <form>
+                            <input type="timkiem" name="search" placeholder="Search..." align="middle">
+                            <i class="fas fa-search" style="color:white; font-size: 23px;" align="middle"></i>
+                        </form>
+                    </li>
+                    <li>
+                        <p>
+                            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                            &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;                        
+                        </p>
+                    </li>
+                    <li>
+                        <div class="dropacc">
+                            <button class="dropaccbtn"><i class="fas fa-user-circle" style="color:white; font-size: 25px;" align="middle"></i></button>
+                            <div align="left" class="dropacc-content">
+                                <a href="signin.html">Đăng nhập</a>
+                                <a href="signup.html">Đăng ký</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><p>&ensp;</p></li>
+                    <li>
+                        <a href="giohang.html">
+                            <button id="cart">
+                                <i class="fas fa-shopping-cart" style="color:white; font-size: 25px;" align="middle"></i>
+                            </button>
+                        </a>                             
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                <div class="dropdown">
+                    <a href="sanpham.html"><button class="dropbtn">Sản phẩm</button></a>
+                      <div align="left" class="dropdown-content">
+                            <a href="laptopvanphong.html">Laptop Văn Phòng</a>
+                            <a href="laptopdohoakythuat.html">Laptop Đồ Hoạ - Kỹ Thuật</a>
+                            <a href="laptopgaming.html">Laptop Gaming</a>
+                            <a href="linhkien.html">Linh kiện</a>
+                      </div>
+                </div>
+                
+                <li><a href="hoidap.html">Hỏi đáp</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <br>
+            <p class="linkk" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">
+                <a href="index.html">Trang chủ</a> > Giỏ hàng
+            </p>
+        </div>
+
+        <hr style="margin-left: 3.5em; margin-right: 3.5em;">
+
+        <section class="cart-item" style="margin-left:15em; margin-right: 15em;">
+            <table style="width:100%">
+                <tr>
+                  <th>Tên mặt hàng</th>
+                  <th>Giá bán</th>
+                  <th>Số lượng</th>
+                  <th>Thành tiền</th>
+                </tr>
+                <tr>
+                  <td>Acer Aspire 5 A515-54-54EU</td>
+                  <td>14.719.000 ₫</strong></p></td>
+                  <td style="text-align: center;">
+                      2
+                        <div class="button_num">
+                            <ul>
+                                <li>
+                                    <a href="#"><button class="button-num" name="button" type="button">-</button></a>
+                                </li>
+                                <li>
+                                    <a href="#"><button class="button-num" name="button" type="button">+</button></a>
+                                </li>
+                            </ul>
+                        </div>
+                  </td>
+                  <td><p style="color: red"><strong>29.438.000 ₫</strong></p></td>
+                </tr>
+                <tr>
+                    <td>SSD Kingston A400 SATA 3 240GB SA400S37/240G</td>
+                    <td>840.000 ₫</strong></p></td>
+                    <td style="text-align: center;">
+                        2
+                          <div class="button_num" >
+                              <ul>
+                                  <li>
+                                      <a href="#"><button class="button-num" name="button" type="button">-</button></a>
+                                  </li>
+                                  <li>
+                                      <a href="#"><button class="button-num" name="button" type="button">+</button></a>
+                                  </li>
+                              </ul>
+                          </div>
+                    </td>
+                    <td><p style="color: red"><strong>1.680.000 ₫</strong></p></td>
+                  </tr>
+                  <tr>
+                    <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
+                    <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
+                    <td>TỔNG</td>                    
+                    <td><p style="color: red"><strong>31.163.000 ₫</strong></p></td>
+                  </tr>
+              </table>
+              <div style="padding-top: 10px; padding-bottom: 10px; text-align: right;">
+                <a href="#"><button class="button-btn" name="button" type="button">Thanh toán</button></a>
+              </div>
+              
+        </section>
+        
+        <footer>
+            <section class="footer">
+                <article style="text-align: left;">
+                    <h4>CỬA HÀNG PHÂN PHỐI LAPTOP - LAPTOP TMH</h4>
+                    <p style="color: darkgrey;"><i class="fas fa-map-marker-alt" style="color: white; font-size: 20-px;"></i> <strong style="color: white;">Địa chỉ:</strong> số 200, đường Trần Văn Ơn, phường Phú Hoà, thành phố Thủ Dầu Một, tỉnh Bình Dương</p>
+                    <P>Copyright &copy; Trần Minh Hiếu - D18PM01 - TDMU</P>
+                </article>
+                <article style="text-align: center;">
+                    <h4>MẠNG XÃ HỘI</h4>
+                    <nav class="scocialmedia">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/your.tranminhhieu" target="_blank">
+                                    <i class="fab fa-facebook-square" style="color: white; font-size: 35px; width: 3%;"></i>
+                                </a>
+                                &ensp;
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/hieu.khongcuoi/?hl=vi" target="_blank">
+                                    <i class="fab fa-instagram" style="color: white; font-size: 35px; width: 3%;"></i>
+                                </a>
+                                &ensp;
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCHWVn_vlEo3Pbi9B9DIiezQ?view_as=subscriber" target="_blank">
+                                    <i class="fab fa-youtube" style="color: white; font-size: 35px; width: 3%;"></i>
+                                </a>
+                                &ensp;
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/TrnMinh44608963" target="_blank">
+                                    <i class="fab fa-twitter" style="color: white; font-size: 35px; width: 3%;"></i>
+                                </a>
+                               
+                            </li>
+                        </ul>
+                    </nav>
+                </article>
+                <article style="text-align: left;">
+                    <p style="color: darkgrey;"><i class="fas fa-phone" style="color: white; font-size: 20-px;"></i> <strong style="color: white;">Điện thoại:</strong> 0346489037</p>
+                    <p style="color: darkgrey;"><i class="fas fa-envelope" style="color: white; font-size: 20-px;"></i> <strong style="color: white;">Mail:</strong> laptoptmh@gmail.com</p>
+                    <p style="color: darkgrey;"><i class="fas fa-clock" style="color: white; font-size: 20-px;"></i> <strong style="color: white;">Giờ mở cửa:</strong> 8:00 đến 22:00 tất cả các ngày trong tuần</p>
+                </article>
+            </section>
+        </footer>
+    </body>
+</html>
